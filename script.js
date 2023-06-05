@@ -23,7 +23,7 @@ document.getElementById('codeForm').addEventListener('submit', function(event) {
         let linkInstructions = document.getElementById('linkInstructions');
 
         linkInstructions.classList.remove('d-none');
-        linkContainer.innerHTML = `<a href="${link}" target="_blank">${link}</a>`;
+        linkContainer.innerHTML = `<a href="${link}" target="_blank">Your Unique Study Materials</a>`;
     }
 });
 
