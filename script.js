@@ -35,7 +35,7 @@ document.getElementById('codeForm').addEventListener('submit', function(event) {
         // Clear any previous error message.
         errorMessage.classList.add('d-none');
         linkInstructions.classList.remove('d-none');
-        linkContainer.innerHTML = `<a href="${link}" target="_blank">${link}</a>`;
+        linkContainer.innerHTML = `<a href="${link}" target="_blank">Your Unique Code Sheet</a>`;
     } else {
         // Show an error message if the code was not found.
         linkInstructions.classList.add('d-none');
